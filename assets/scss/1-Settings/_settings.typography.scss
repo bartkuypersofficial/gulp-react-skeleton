@@ -1,0 +1,84 @@
+// ======================================================================================
+//  Typography
+// ======================================================================================
+
+
+
+// ==========================================
+//  Base font size & line height
+//
+//  The $base-line-height is used for
+//  creating spacing classes, and the
+//  line-height ration is used inf the
+//  $font-sizes map
+// ==========================================
+
+$base-font-size:                                16px !default;
+$base-line-height:                              24px !default;
+$line-height-ratio:                             $base-line-height/$base-font-size !default;
+
+
+// ==========================================
+//  Here we assign short names for the
+//  font families
+// ==========================================
+
+$font-base:                                     'Helvetica', 'Arial', sans-serif;
+$font-opensans:                                 'Open Sans', sans-serif;
+
+
+// ==========================================
+//  Here we store variables for the
+//  font-face functions and mixins stored
+//  in the toolbox
+// ==========================================
+
+$font-base-url:                                 '../fonts/';
+$font-used:                                     ();
+
+
+// ==========================================
+//  Here we store all of the font-faces
+// ==========================================
+
+$font-stack: (
+  'opensans': (
+    'regular': (
+      family: $font-opensans,
+      weight: normal,
+      style: normal,
+      font-face: (
+        family: 'Open Sans',
+        path: 'OpenSans-Regular',
+        formats: (eot woff ttf svg)
+      ),
+    ),
+    'light': (
+      family: $font-opensans,
+      weight: 300,
+      style: normal,
+      font-face: (
+        family: 'Open Sans',
+        path: 'OpenSans-Light',
+        formats: (eot woff ttf svg)
+      ),
+    ),
+    'semi-bold': (
+      family: $font-opensans,
+      weight: 600,
+      style: normal,
+      font-face: (
+        family: 'Open Sans',
+        path: 'OpenSans-SemiBold',
+        formats: (eot woff ttf svg)
+      ),
+    ),
+  ),
+  'base': (
+    'regular': (
+      family: $font-base,
+      weight: normal,
+      style: normal
+    ),
+  ),
+);

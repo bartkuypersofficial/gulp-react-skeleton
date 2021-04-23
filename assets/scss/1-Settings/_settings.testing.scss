@@ -1,0 +1,21 @@
+// ======================================================================================
+//  Some additional settings
+// ======================================================================================
+
+
+
+// ==========================================
+//  Would you like to show media queries?
+//  This is handy during development.
+// ==========================================
+
+$show-mq:                                       true !default; //TODO: after development set back to false
+$show-mq--colors:                               false !default;
+
+
+// ==========================================
+//  Enable debug mode to highlight possible
+//  markup/accessibility quirks in your code
+// ==========================================
+
+$debug-mode:                                    false !default;

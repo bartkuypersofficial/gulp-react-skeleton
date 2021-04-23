@@ -1,0 +1,23 @@
+// ======================================================================================
+//  Helper classes
+// ======================================================================================
+
+
+
+// ==========================================
+//  Utilities are complete single
+//  responsibility rules which have a very
+//  specific and targeted task. It is also
+//  quite common for these rules’ declarations
+//  to carry !important so as to guarantee
+//  they beat other less specific ones.
+//  They do one thing in a very heavy-handed
+//  and inelegant way. They are to be used as
+//  a last resort when no other CSS hooks are
+//  available, or to tackle completely
+//  unique circumstances, They are only one
+//  step away from inline styles, so should
+//  be used sparingly.
+// ==========================================
+
+// sass-lint:disable no-important

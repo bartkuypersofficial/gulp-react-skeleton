@@ -1,0 +1,70 @@
+// ======================================================================================
+//  Site wide variables for specific components on which other elements are dependent.
+// ======================================================================================
+
+
+
+// ==========================================
+//  Set some values here for reuse
+//  within components
+// ==========================================
+$grid-columns:                                  12 !default;
+$grid-gutter-width:                             30px !default;
+
+
+// ==========================================
+//  Grid containers
+//  Define the maximum width of `.container`
+//  for different screen sizes.
+// ==========================================
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px
+) !default;
+
+
+// ==========================================
+//  Set some default uses of color
+// ==========================================
+
+$page-shadow-color:                             $brand-neutral-600 !default;
+$page-background-color:                         $brand-neutral-100 !default;
+$page-text-color:                               $black !default;
+$link-text-color:                               $brand-primary !default;
+$link-text-color--hover:                        $brand-primary-light !default;
+
+
+// ==========================================
+//  Default border properties
+// ==========================================
+
+$border-radius:                                 5px !default;
+$border-radius--small:                          3px !default;
+$border-width:                                  1px !default;
+$border-style:                                  solid !default;
+$border-color:                                  $brand-neutral !default;
+
+
+// ==========================================
+//  Default animation properties
+// ==========================================
+
+$transition-speed:                              .4s !default;
+$transition-speed--fast:                        .2s !default;
+$transition-speed--turbo:                       .1s !default;
+$transition-ease:                               ease-in-out !default;
+
+
+// ==========================================
+//  Default z-index values
+// ==========================================
+
+$z-showmqlabel:                                70;
+$z-modal:                                      61;
+$z-cookie:                                     50;
+$z-loader-before:                              41;
+$z-loader-after:                               40;
+$z-hint:                                       30;

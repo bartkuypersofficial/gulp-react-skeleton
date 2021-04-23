@@ -1,0 +1,36 @@
+// ======================================================================================
+//  Buttons
+// ======================================================================================
+
+
+
+// ==========================================
+//  Default button styling
+// ==========================================
+
+.c-btn {
+  @include unitize(padding, 6, 24);
+  @include rounded();
+  transition: $transition-speed $transition-ease;
+  border: none;
+  background-color: $brand-primary;
+  color: $white;
+  line-height: normal;
+  text-decoration: none;
+
+  &:hover {
+    @include elevation(2);
+    background-color: $brand-primary-dark;
+    color: $white;
+  }
+
+  &:focus,
+  &:active,
+  &:active:focus {
+    @include elevation(4);
+    outline: none;
+    outline-offset: unset;
+    background-color: $brand-primary-darker;
+    color: $white;
+  }
+}

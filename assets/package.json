@@ -1,0 +1,39 @@
+{
+  "name": "workflow",
+  "version": "1.0.0",
+  "description": "My Web Workflow with NPM, SASS, Gulp and More",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bartkuypersofficial/workflow.git"
+  },
+  "keywords": [
+    "SASS",
+    "NPM",
+    "Git",
+    "Gulp"
+  ],
+  "author": "Bart Kuijpers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bartkuypersofficial/workflow/issues"
+  },
+  "homepage": "https://github.com/bartkuypersofficial/workflow#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-iconfont": "^10.0.1",
+    "gulp-iconfont-css": "^2.3.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-minify": "^3.1.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sass-lint": "^1.4.0"
+  },
+  "sasslintConfig": ".sass-lint.yml"
+}

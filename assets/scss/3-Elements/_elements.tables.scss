@@ -1,0 +1,33 @@
+// ======================================================================================
+//  Tables
+// ======================================================================================
+
+
+table {
+  @include rounded;
+  @include border;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+
+  tr:last-child {
+    & > * {
+      border-bottom: none;
+    }
+  }
+
+  td,
+  th {
+    @include unitize(padding, 12);
+    @include border(bottom);
+    text-align: left;
+  }
+
+  th {
+    background-color: $brand-neutral-100;
+  }
+
+  td:first-child {
+    color: $brand-neutral;
+  }
+}

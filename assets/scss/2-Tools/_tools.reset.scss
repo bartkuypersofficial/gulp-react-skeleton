@@ -1,0 +1,27 @@
+// ======================================================================================
+//  Reset
+// ======================================================================================
+
+
+
+// ==========================================
+//  https://github.com/tomhodgins/preset
+//  version 1.0.0 | License: MIT
+// ==========================================
+
+* {
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-kerning: auto;
+}
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
